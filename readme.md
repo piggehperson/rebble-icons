@@ -1,2 +1,2 @@
 # Rebble icons
-an incomplete list of stylized iconography drawn for the Rebble project. feel free to extend!
+A growing set of stylized icongraphy drawn for the Rebble project at https://rebble.io. feel free to extend!
