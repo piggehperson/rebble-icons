@@ -90,8 +90,8 @@ for sizedir in [f for f in os.listdir() if f.endswith('px')]:
       f.write(ET.tostring(svg).decode('utf-8'))
       f.close()
       if not name + ".svg" in existing_files:
-        last_id += 1
-        addon += json_addon.format(glyph_id = hex(last_id), glyph_name = name + ".svg")
+        last_id = hex(int(last_id, 16) + 1)
+        addon += json_addon.format(glyph_id = last_id, glyph_name = name + ".svg")
 
     if fill:
       svg.remove(child)
@@ -101,8 +101,8 @@ for sizedir in [f for f in os.listdir() if f.endswith('px')]:
       f.write(ET.tostring(svg).decode('utf-8'))
       f.close()
       if not name + "_background.svg" in existing_files:
-        last_id += 1
-        addon += json_addon.format(glyph_id = hex(last_id), glyph_name = name + "_background.svg")
+        last_id = hex(int(last_id, 16) + 1)
+        addon += json_addon.format(glyph_id = last_id, glyph_name = name + "_background.svg")
 
 
 if addon:
