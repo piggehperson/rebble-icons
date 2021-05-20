@@ -68,8 +68,8 @@
     "0xe836": { "src": "discord.svg", "width": 1000 },
     "0xe837": { "src": "discord_background.svg", "width": 1000 },
     "0xe838": { "src": "locker_background.svg", "width": 1000 },
-    "0xe839": { "src": "menu_horizontal_background.svg", "width": 1000 },
-    "0xe83a": { "src": "menu_vertical_background.svg", "width": 1000 },
+    "0xe839": { "src": "location.svg", "width": 1000 },
+    "0xe83a": { "src": "location_background.svg", "width": 1000 },
     "0xe83b": { "src": "music_boombox.svg", "width": 1000 },
     "0xe83c": { "src": "music_boombox_background.svg", "width": 1000 },
     "0xe83d": { "src": "music_disk.svg", "width": 1000 },
@@ -153,9 +153,7 @@
     "0xe88c": { "src": "calendar.svg", "width": 1000 },
     "0xe88d": { "src": "calendar_background.svg", "width": 1000 },
     "0xe88e": { "src": "reddit.svg", "width": 1000 },
-    "0xe88f": { "src": "reddit_background.svg", "width": 1000 },
-    "0xe890": { "src": "location.svg", "width": 1000 },
-    "0xe891": { "src": "location_background.svg", "width": 1000 }
+    "0xe88f": { "src": "reddit_background.svg", "width": 1000 }
   },
   "sfnt_names": [
     ["English (US)", "Copyright", "Copyright (c) 2020-2021 by lav"],
