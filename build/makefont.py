@@ -1,4 +1,5 @@
 import os
+import sys
 import pathlib
 import json
 import time
@@ -109,6 +110,7 @@ if addon:
   print("Add the following lines to RebbleIcons.json to have the glyphs appear in the font")
   print("(Don't forget about the comma on the current last line!)")
   print(addon[0:-1])
+  sys.exit(1)
 else:
   f = open('rebble_icons.dart', 'w')
   f.write(open('build/rebble_icons.template').read().replace('%REPLACE%', dart))
