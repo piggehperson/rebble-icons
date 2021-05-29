@@ -153,7 +153,9 @@
     "0xe88c": { "src": "calendar.svg", "width": 1000 },
     "0xe88d": { "src": "calendar_background.svg", "width": 1000 },
     "0xe88e": { "src": "reddit.svg", "width": 1000 },
-    "0xe88f": { "src": "reddit_background.svg", "width": 1000 }
+    "0xe88f": { "src": "reddit_background.svg", "width": 1000 },
+    "0xe890": { "src": "heart_filled.svg", "width": 1000 },
+    "0xe891": { "src": "heart_empty.svg", "width": 1000 }
   },
   "sfnt_names": [
     ["English (US)", "Copyright", "Copyright (c) 2020-2021 by lav"],
