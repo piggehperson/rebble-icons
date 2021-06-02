@@ -1,0 +1,37 @@
+name: Font Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Add inkscape ppa
+      run:  sudo add-apt-repository ppa:inkscape.dev/stable
+
+    - name: Install inkscape and fontforge
+      run:  sudo apt update && sudo apt install inkscape fontforge python3-pip
+    
+    - name: Install python dependencies
+      run:  yes | sudo pip install svgpathtools
+
+    - name: Build the font
+      uses: GabrielBB/xvfb-action@v1
+      with:
+        run: python3 build/makefont.py
+
+    - name: Upload the font
+      uses: actions/upload-artifact@v2
+      with:
+        name: RebbleIcons
+        path: |
+          RebbleIcons.ttf
+          rebble_icons.dart

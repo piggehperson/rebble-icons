@@ -9,14 +9,13 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="25"
    height="25"
-   viewBox="0 0 25 25"
-   fill="none"
    version="1.1"
-   id="svg8"
-   sodipodi:docname="Email.svg"
+   viewBox="-10 0 25 25"
+   id="svg4"
+   sodipodi:docname="caret_down.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
-     id="metadata14">
+     id="metadata10">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -28,7 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs12" />
+     id="defs8" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -40,21 +39,17 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview10"
-     showgrid="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:zoom="27.266037"
-     inkscape:cx="15.567001"
-     inkscape:cy="12.479058"
-     inkscape:current-layer="svg8">
-    <inkscape:grid
-       type="xygrid"
-       id="grid843" />
-  </sodipodi:namedview>
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="19.28"
+     inkscape:cx="12.5"
+     inkscape:cy="12.5"
+     inkscape:current-layer="svg4" />
   <path
+     d="m -5.5,8.5 8.5,8 8.5,-8"
+     fill="none"
+     stroke="#000000"
+     stroke-width="3"
      id="path2"
-     style="stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff"
-     d="m 6,3 v 8.705078 L 4,11 V 21 H 21 V 11 l -2,0.705078 V 3 Z M 6,11.705078 12.5,14 19,11.705078 M 10,7 h 5"
-     sodipodi:nodetypes="cccccccccccc" />
+     sodipodi:nodetypes="ccc" />
 </svg>

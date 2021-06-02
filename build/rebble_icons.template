@@ -1,0 +1,13 @@
+/// RebbleIcons
+/// Copyright © 2020-2021 by lav
+///
+import 'package:flutter/widgets.dart';
+
+class RebbleIcons {
+  RebbleIcons._();
+
+  static const _kFontFam = 'RebbleIcons';
+  static const dynamic _kFontPkg = null;
+
+%REPLACE%
+}
